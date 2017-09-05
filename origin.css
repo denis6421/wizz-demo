@@ -1,0 +1,74 @@
+
+
+  .origin_select , .destination_select{
+    width: 100%;
+    height: 425px;
+    background: white;
+    box-sizing: border-box;
+    overflow-y: scroll;
+    padding-bottom: 30px;
+    overflow: hidden;
+
+
+  }
+  .origin_select:hover , .destination_select:hover{
+    overflow-y: scroll;
+  }
+  .origin_select div , .destination_select div {
+    width: 85%;
+    margin: auto;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #e1e1e1;
+    font-family: Source Sans Pro,sans-serif;
+  }
+
+  .origin_select p ,.destination_select p {
+    font-weight: 700;
+    font-size: 12px;
+    cursor: pointer;
+  }
+  .origin_select h5  ,.destination_select h5{
+    color: #919191;
+    font-size: 12px;
+  }
+    .origin_select div span:nth-child(even) , .destination_select div span:nth-child(even){
+      float: right;
+      color: #919191;
+      font-weight: 400;
+    }
+    .origin_select .origin_closing , .destination_select .destination_closing{
+      background: rgb(225, 225, 225);
+      height: 50px;
+      padding: 0px;
+      width: 100%;
+      display: none;
+
+    }
+
+    .origin_closing p ,.destination_closing p{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin: 0px;
+      height: 100%;
+      width: 90%;
+      margin: auto;
+    }
+    .origin_closing button ,.destination_closing button{
+      background: none;
+      outline: none;
+      border: none;
+      font-size: 30px;
+
+    }
+@media screen and (max-width: 700px){
+
+  .origin_select .origin_closing ,.destination_closing , .destination_select .destination_closing{
+    display: block;
+  
+  }
+
+
+
+
+}

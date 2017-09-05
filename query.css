@@ -1,0 +1,250 @@
+@media screen and (max-width: 1060px){
+main form{
+  width: 37vw;
+}
+.form_btn{
+  width: 60px;
+}
+.flight_offers_images , .partner_offers{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  .flight_offers_images div, .partner_offers div{
+    width: 47%;
+    margin-bottom: 20px;
+  }
+  .flight_offers_images div div:first-child img, .partner_offers div div:first-child img{
+  height: 120px;
+  overflow: hidden;
+  }
+  .offers_info{
+    width: 94%;
+  }
+
+}
+@media screen and (min-width: 1000px){
+  .mobile_menu_wrapper{
+    display: none !important;
+  }
+  body{
+    overflow: auto !important;
+  }
+}
+@media screen and (max-width: 1000px){
+  nav {
+    display: none;
+  }
+.mobile_nav{
+  display: flex;
+}
+.mobile_nav div img{
+  margin: auto;
+}
+.logo{
+  display: none;
+}
+.explore {
+  height: 350px;
+}
+.explore_flex {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.explore_border {
+  border: none;
+}
+.media_social_btn img{
+  width: 40%;
+  height: auto;
+}
+footer {
+  height: 690px;
+  font-family: P22 Underground Pro, sans-serif;
+}
+.flex_footer {
+  display: flex;
+  height: 80%;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.flex_footer div {
+  width: 40%;
+}
+.footer_icons{
+  width: 50%;
+}
+.explore_flex div {
+  width: 320px;
+
+}
+}
+@media screen and (max-width: 700px){
+  main{
+    height: 650px;
+    position: relative;
+  }
+  .main_wrapper{
+    padding: 0px;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 60px;
+  }
+ main form{
+  width: 90%;
+  margin: auto;
+  padding: 0px;
+  height: auto;
+  padding-bottom: 30px;
+  border-radius: 0px;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+.form_btn {
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  border-bottom-left-radius: 0px;
+  }
+.date_flight, .passengers{
+  display: none;
+}
+
+.form_btn{
+  width: 90%;
+  height: 70px;
+  display: flex;
+  margin: auto;
+
+}
+.form_btn div {
+  width: 25%;
+  height: 100%;
+  display: inline;
+
+}
+.origin_container{
+  width: 90%;
+  display: block;
+  position: absolute;
+  top:30px;
+  left: 5%;
+}
+.explore_flex div {
+  width: 250px;
+
+}
+.explore_flex div img {
+  width: 130px;
+
+}
+.flight_offers_images div, .partner_offers div {
+  width: 95%;
+  margin: auto;
+  height: 220px;
+  border-radius: 5px;
+  overflow: hidden;
+  background: white;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, .15);
+  margin-bottom: 20px;
+}
+.flight_offers_images div:last-child div:first-child img{
+transform: scale(1.1);
+}
+.partner_offers div div:first-child img{
+  height: 150px;
+}
+.media_container {
+  display: flex;
+  width: 97%;
+  flex-wrap: wrap;
+}
+.media_container div {
+  width: 90%;
+  height: auto;
+  padding-left: 25px;
+  border: none;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-bottom: 2px solid #e1e1e1;
+
+}
+.media_container div:first-child{
+  padding-top: 15px;
+  border-bottom: 2px solid #e1e1e1;
+}
+.media_container div:last-child{
+  border: none;
+}
+.media_social_btn img{
+  width: 130px;
+  height: 40px;
+}
+.tourism{
+  height: 170px;
+}
+.tourism a {
+
+  display: block;
+  margin-bottom: 20px;
+}
+.tourism a:nth-child(3){
+  margin: 0px;
+  margin-bottom: 20px;
+}
+footer{
+  height: 1150px;
+
+}
+.flex_footer {
+  display: flex;
+  height: 80%;
+  justify-content: space-around;
+}
+.flex_footer div {
+  width: 90%;
+  height: auto;
+}
+.footer_icons{
+  width: 40%;
+}
+.aside_footer{
+  height: 12%;
+}
+.reserved_footer{
+  height: 70px;
+  margin-top: 40px;
+}
+.policy_footer {
+
+  height: 70px;
+
+}
+.moving_text p{
+  font-size: 2.5VW;
+}
+}
+@media screen and (max-width: 550px){
+.explore {
+  height: 470px;
+}
+.explore_flex div{
+  width: 60%;
+  margin-left: 0px;
+  margin: auto;
+
+}
+.explore_flex div img{
+  width: 130px;
+}
+.explore_flex div:first-child img{
+  width: 110px;
+}
+.footer_icons{
+  width: 55%;
+}
+.policy_footer {
+padding-right: 10px;
+}
+
+}
