@@ -4,10 +4,10 @@ body {
   box-sizing: border-box;
 }
 
-
-button{
+button {
   cursor: pointer;
 }
+
 input {
   outline: none;
   text-indent: 20px;
@@ -30,70 +30,76 @@ header .logo {
 header .logo img {
   width: 100%;
 }
-.mobile_nav{
+
+.mobile_nav {
   display: none;
 }
-.mobile_nav{
+
+.mobile_nav {
   display: none;
   width: 95%;
   justify-content: space-between;
   align-items: center;
   margin: auto;
-  font-family: P22 Underground Pro,sans-serif;
+  font-family: P22 Underground Pro, sans-serif;
   font-weight: bold;
   color: white;
   font-size: 13px;
 }
-.mobile_nav div:first-child{
+
+.mobile_nav div:first-child {
   width: 70px;
   cursor: pointer;
 }
-.mobile_nav div:first-child div{
-border-top: 2px solid white;
-width: 20px;
-height: 5px;
+
+.mobile_nav div:first-child div {
+  border-top: 2px solid white;
+  width: 20px;
+  height: 5px;
 }
-.mobile_nav div:nth-child(2){
+
+.mobile_nav div:nth-child(2) {
   text-align: center;
 }
-.mobile_nav div:nth-child(2) img{
+
+.mobile_nav div:nth-child(2) img {
   width: 70%;
 }
 
-.mobile_nav div:last-child img{
+.mobile_nav div:last-child img {
   width: 18px;
-margin-left: 5px;
-
+  margin-left: 5px;
 }
-.mobile_menu_wrapper{
+
+.mobile_menu_wrapper {
   width: 100%;
+  height: 100%;
   position: fixed;
-  top:0px;
+  top: 0px;
   left: 0px;
-  height: 700px;
   background-color: rgba(0, 0, 0, 0.5);
   z-index: 2;
   display: none;
-
-
 }
-.mobile_menu{
-background: white;
-width: 280px;
-height: 100%;
-z-index: 3;
-display: none;
+
+.mobile_menu {
+  background: white;
+  width: 280px;
+  z-index: 3;
+  display: none;
 }
-.mobile_menu_btn{
-  font-size: 70px;
+
+.mobile_menu_btn {
+  font-size: 60px;
   position: fixed;
-  top:40px;
-  left: 350px;
+  top: 20px;
+  left: 300px;
   background: none;
   border: none;
   outline: none;
   color: lightblue;
 }
+
 nav {
   width: 700px;
 }
@@ -130,8 +136,8 @@ main {
   width: 100%;
   height: 520px;
   background-image: url("images/slider/slide1.jpg");
-  background-repeat:  no-repeat;
-  background-size:  cover;
+  background-repeat: no-repeat;
+  background-size: cover;
   background-position: center;
 }
 
@@ -143,10 +149,7 @@ main {
   overflow: hidden;
   padding-top: 40px;
   padding-left: 40px;
-
-
 }
-
 
 .form_btn {
   width: 80px;
@@ -155,7 +158,6 @@ main {
   border-top-left-radius: 4px;
   border-bottom-left-radius: 4px;
   overflow: hidden;
-
 }
 
 .form_btn div {
@@ -164,8 +166,24 @@ main {
   border-bottom: 0.5px solid #919191;
   cursor: pointer;
   transition: 0.4s;
-}
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 12px;
+  font-weight: 300;
+  font-family: P22 Underground Pro,sans-serif;
+  color: #06038d;
 
+}
+.form_btn div img{
+  width: 40px;
+  margin-bottom: 5px;
+}
+.form_btn div span{
+  text-align: center;
+  color: gray;
+}
 .form_btn div:hover {
   background: white;
   transition: 0.4s;
@@ -178,36 +196,37 @@ main form {
   border-top-right-radius: 4px;
   border-bottom-right-radius: 4px;
   margin: 0px;
-
 }
-.origin_container{
+
+.origin_container {
   width: 22vw;
   display: none;
   border-radius: 5px;
   overflow: hidden;
 }
 
- .origin_container ::-webkit-scrollbar {
-    width: 10px;
+.origin_container ::-webkit-scrollbar {
+  width: 10px;
 }
 
 .origin_container ::-webkit-scrollbar-track {
-    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0);
-    border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0);
+  border-radius: 10px;
 }
 
 .origin_container ::-webkit-scrollbar-thumb {
-    border-radius: 10px;
-    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.8);
-
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.8);
 }
-.date_container{
+
+.date_container {
   width: 50vw;
   height: 500px;
   background: white;
   border-radius: 5px;
   display: none;
 }
+
 .origin_input, .passengers, .date_flight, .family_rooms, .hotels {
   width: 90%;
   height: auto;
@@ -220,7 +239,6 @@ main form {
 
 .origin_input {
   position: relative;
-
 }
 
 .origin_input input {
@@ -228,9 +246,11 @@ main form {
   height: 55px;
   padding: 0px;
 }
-.origin_input  p span{
+
+.origin_input p span {
   margin-right: 20px;
 }
+
 .arrow_sep {
   position: absolute;
   width: 15px;
@@ -285,7 +305,7 @@ form button {
   margin-top: 20px;
 }
 
-.form_footer{
+.form_footer {
   display: flex;
   width: 90%;
   justify-content: space-between;
@@ -293,16 +313,18 @@ form button {
   margin-top: 25px;
 }
 
-.main_wrapper  a {
+.main_wrapper a {
   color: #D74DA5;
   font-size: 13px;
   font-weight: 400;
-
 }
 
 .active_form_btn {
   background: #F2F2F2;
-}
+  }
+  .active_form_span{
+    color: blue;
+  }
 
 .hotels {
   width: 80%;
@@ -328,6 +350,12 @@ form button {
   display: block;
   border: 2px solid #E1E1E1;
   border-radius: 3px;
+  position: relative;
+}
+.hotels  img{
+  width: 22px;
+  position: absolute;
+  top:10px;
 }
 
 .hotels input {
@@ -338,17 +366,16 @@ form button {
   outline: none;
   color: inherit;
   margin-right: 10px;
-    text-indent: 10px;
+  text-indent: 10px;
 }
 
 .hotels div:first-child input {
   width: 100%;
-
 }
-.hotels input::placeholder  {
-  padding-left:0px;
-  margin: 0px;
 
+.hotels input::placeholder {
+  padding-left: 0px;
+  margin: 0px;
 }
 
 .cars {
@@ -356,6 +383,7 @@ form button {
   margin: auto;
   padding-top: 30px;
 }
+
 
 .cars .cars_check {
   display: flex;
@@ -389,6 +417,13 @@ form button {
 
 .cars .car_drop_location {
   display: flex;
+  position: relative;
+}
+.cars img{
+  width: 20px;
+position: absolute;
+top:8px;
+right: 10px;
 }
 
 .cars .car_drop_location span {
@@ -433,13 +468,14 @@ form button {
   float: right;
   margin-top: 0px;
 }
-.moving{
+
+.moving {
   background: yellow;
   position: relative;
   cursor: pointer;
-
 }
-.moving_text{
+
+.moving_text {
   height: 40px;
   width: 95%;
   display: flex;
@@ -449,29 +485,32 @@ form button {
   position: relative;
   animation-name: slide;
   animation-duration: 40s;
-  animation-iteration-count:infinite;
-
+  animation-iteration-count: infinite;
 }
 
-
-.moving button{
+.moving button {
   display: inline;
-position: absolute;
-right: 10px;
-top: 5px;
-background: none;
-border: none;
-font-size: 22px;
-outline: none;
-cursor: pointer;
-
+  position: absolute;
+  right: 10px;
+  top: 5px;
+  background: none;
+  border: none;
+  font-size: 22px;
+  outline: none;
+  cursor: pointer;
 }
-
 
 @keyframes slide {
-    0%   { right:0px; top:0px;}
-    100% { right:100%; top:0px;}
+  0% {
+    right: 0px;
+    top: 0px;
+  }
+  100% {
+    right: 100%;
+    top: 0px;
+  }
 }
+
 .explore {
   height: 250px;
 }
@@ -500,9 +539,11 @@ cursor: pointer;
   font-family: Source Sans Pro, sans-serif;
   color: #06038d;
 }
-.explore_flex div h3{
+
+.explore_flex div h3 {
   padding-left: 0px;
 }
+
 .explore_flex div img {
   width: 100px;
   height: 80px;
@@ -525,7 +566,6 @@ cursor: pointer;
 .flight_offers {
   background: #F2F2F2;
   height: auto;
-
 }
 
 .flight_offers h2, .partner_offers h2 {
@@ -552,14 +592,14 @@ cursor: pointer;
   box-shadow: 0 1px 2px rgba(0, 0, 0, .15);
 }
 
-.flight_offers_images div  div:first-child, .partner_offers div div:first-child {
+.flight_offers_images div div:first-child, .partner_offers div div:first-child {
   width: 100%;
   height: 50%;
   border-radius: 0px;
 }
-.flight_offers_images div div:first-child img, .partner_offers div div:first-child img{
-  width: 100%;
 
+.flight_offers_images div div:first-child img, .partner_offers div div:first-child img {
+  width: 100%;
 }
 
 .flight_offers_images div p, h3, .partner_offers div p, h3 {
@@ -606,7 +646,6 @@ cursor: pointer;
   width: 400px;
   height: 200px;
   padding-left: 25px;
-
 }
 
 .media_container a {
@@ -622,11 +661,10 @@ cursor: pointer;
   border-left: 2px solid #e1e1e1;
 }
 
-.media_social_btn img{
+.media_social_btn img {
   width: 100px;
   height: 30px;
   margin-right: 10px;
-
 }
 
 .media_container h2 {
@@ -654,9 +692,7 @@ cursor: pointer;
   width: 80px;
   margin-right: 20px;
   padding-top: 10px;
-
 }
-
 
 .media_container div button {
   width: 150px;
@@ -744,22 +780,22 @@ footer {
 }
 
 .aside_footer {
-  height:20%;
+  height: 20%;
   margin: auto;
   background: white!important;
   font-size: 15px;
   display: flex;
   align-items: center;
   border-top: 1px solid #e1e1e1;
-
 }
-.aside_footer p{
+
+.aside_footer p {
   width: 90%;
   padding-top: 10px;
   padding-bottom: 20px;
   margin: auto;
-
 }
+
 .reserved_footer {
   height: 40px;
   background: #06038D;
@@ -784,7 +820,6 @@ footer {
   display: flex;
   align-items: center;
   color: white;
-
 }
 
 .policy_footer ul li {
@@ -798,50 +833,77 @@ footer {
   padding: 0px;
 }
 
-
-
-.education{
+.education {
   text-align: center;
   font-size: 15px;
   height: 40px;
   padding-top: 100px;
 }
 
-
-.mobile_menu_window{
-  width: 94%;
+.mobile_menu_window {
+  width: 90%;
+  height: 890px;
   margin: auto;
   padding-top: 60px;
-  font-family: Source Sans Pro,sans-serif;
+  font-family: Source Sans Pro, sans-serif;
 }
-.mobile_menu_window h4{
+
+.mobile_menu_window h4 {
   font-size: 15px;
   font-weight: 600;
   color: #343434;
-
 }
-.mobile_menu_window div{
+
+.mobile_menu_window h4 img {
+  width: 10px;
+  margin-left: 8px;
+}
+
+.mobile_menu_window div {
   padding-bottom: 20px;
 }
-  .mobile_menu_window a{
-    text-decoration: none;
-    margin-bottom: 20px;
-  }
-  .mobile_menu_window div ul li{
-      color: #c6007e;
-      font-size: 13px;
-  }
 
-    .mobile_menu_window div ul{
-      list-style-type: none;
-      padding: 0px;
-    }
-    .hidden_ul_mobile_menu div ul{
-      display: none;
-    }
-    .hidden_ul_mobile_menu div h4{
-      cursor: pointer;
-    }
-      .hidden_ul_mobile_menu div{
-        padding: 0px;
-      }
+.mobile_menu_window a {
+  text-decoration: none;
+  color: #c6007e;
+}
+
+.mobile_menu_first {
+  padding-top: 20px;
+}
+
+.mobile_menu_window div ul li {
+  color: #c6007e;
+  font-size: 13px;
+  padding-bottom: 10px;
+  cursor: pointer;
+}
+
+.mobile_menu_window div ul {
+  list-style-type: none;
+  padding: 0px;
+}
+
+.hidden_ul_mobile_menu div ul {
+  display: none;
+}
+
+.hidden_ul_mobile_menu div h4 {
+  cursor: pointer;
+}
+
+.hidden_ul_mobile_menu div {
+  padding: 0px;
+}
+
+#mobile_menu_search h4 {
+  font-family: Source Sans Pro, sans-serif;
+  font-size: 15px;
+}
+
+#mobile_menu_search INPUT {
+  width: 100%;
+  height: 40px;
+  border: 0.8px solid lightgray;
+  outline: none;
+}

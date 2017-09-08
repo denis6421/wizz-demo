@@ -21,6 +21,16 @@ main form{
   .offers_info{
     width: 94%;
   }
+  .form_btn div  span{
+    font-size: 10px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .form_btn div img{
+    width:25px;
+    margin-bottom: 5px;
+  }
 
 }
 @media screen and (min-width: 1000px){
@@ -79,6 +89,7 @@ footer {
   width: 320px;
 
 }
+
 }
 @media screen and (max-width: 700px){
   main{
@@ -120,9 +131,15 @@ footer {
 .form_btn div {
   width: 25%;
   height: 100%;
-  display: inline;
+  display: inline-flex;
 
 }
+.form_btn div img{
+  width: 35px;
+  margin-bottom: 5px;
+}
+
+
 .origin_container{
   width: 90%;
   display: block;
@@ -225,6 +242,12 @@ footer{
 }
 }
 @media screen and (max-width: 550px){
+  .mobile_menu{
+  width: 240px;
+}
+.mobile_menu_btn{
+  left: 260px;
+}
 .explore {
   height: 470px;
 }

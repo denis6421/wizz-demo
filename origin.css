@@ -65,10 +65,11 @@
 
   .origin_select .origin_closing ,.destination_closing , .destination_select .destination_closing{
     display: block;
-  
+
   }
-
-
-
-
+}
+@media screen and (max-width: 550px){
+  .origin_select , .destination_select{
+      overflow: scroll;
+  }
 }

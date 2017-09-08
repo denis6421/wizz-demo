@@ -4,7 +4,6 @@
 $(".form_btn div").click(function(){
   $(".form_btn div").removeClass("active_form_btn");
   $(this).addClass("active_form_btn");
-
 })
 $(".form_btn div:first-child").click(function(){
   $("main").css("background-image", "url('images/slider/slide1.jpg')");

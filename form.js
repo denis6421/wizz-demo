@@ -2,6 +2,7 @@
 
 window.onload = function () {
 $("form").load("origin_form.html");
+$(".mobile_menu").load("mobile-menu.html");
 }
 
 $("form #origin_in").click(function(){
@@ -46,7 +47,7 @@ $("#destination_in").click(function(){
 
 $("form .origin_input input:nth-child(2)").click(function(){
   $(".origin_container").css("display", "block");
-    
+
   $(".origin_container").load("destination.html");
 
 
