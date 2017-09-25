@@ -1,0 +1,55 @@
+<link rel="stylesheet" href="./style/menu.css">
+<div class="plan_menu_wrapper">
+  <div>
+    <h4>EXPLORE YOUR TRAVEL OPPORTUNITIES.</h4>
+      <button class="header_menu_close">&#10005;</button>
+  </div>
+
+
+<div class="main">
+<div>
+  <img src="./images/menu/plane-menu.png" alt="">
+  <span><h3>SELECT FLIGHT</h3>
+    <p>Book flights to your Wizz Air destination of choice on your ideal departure date.</p>
+  </span>
+</div>
+<div>
+  <img src="./images/menu/monitor-menu.png" alt="">
+  <span><h3>FARE FINDER</h3>
+    <p>Flexible with dates ? Search for the lowest available fare for your journey, and book by best price.</p>
+  </span>
+</div>
+<div>
+  <img src="./images/menu/monitor-menu.png" alt="">
+  <span><h3>TIMETABLE</h3>
+    <p>Find out our flight schedule to your chosen destination and select our lowest fare available for your travel date</p>
+  </span>
+</div>
+<div>
+  <img src="./images/menu/map1-menu.png" alt="">
+  <span><h3>DESTINATION MAP</h3>
+    <p>Explore our expanding network of flight routes and see how far Wizz Air can take you.</p>
+  </span>
+</div>
+<div>
+  <img src="./images/menu/map2-menu.png" alt="">
+  <span><h3>DESTINATIONS</h3>
+    <p>Browse our list of destinations and choose your favourite place for your next holiday.</p>
+  </span>
+</div>
+<div>
+  <img src="./images/menu/location-menu.png" alt="">
+  <span><h3>TRIP PLANNER</h3>
+    <p> Discover our destinations and be inspired, from great budget breaks to the best beach holidays.</p>
+  </span>
+</div>
+</div>
+</div>
+<script src="js/jquery-3.2.1.min.js" charset="utf-8"></script>
+<script>
+  $(".header_menu_close").click(function(){
+  $(".hover_btn").next("#arrow").css("transform" ,"rotate(45deg)");
+  $(".header_menu").slideToggle();
+
+})
+</script>

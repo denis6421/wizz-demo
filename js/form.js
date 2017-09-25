@@ -1,8 +1,8 @@
 
 
 window.onload = function () {
-$("form").load("origin_form.html");
-$(".mobile_menu").load("mobile-menu.html");
+$("form").load("ajax/origin_form.html");
+$(".mobile_menu").load("ajax/mobile-menu.html");
 }
 
 $("form #origin_in").click(function(){
@@ -26,7 +26,7 @@ $(".origin_container").hide()
 $("#origin_in").click(function(){
     $(".origin_container").css("display", "block");
 
-  $(".origin_container").load("origin.html");
+  $(".origin_container").load("ajax/origin.html");
 
 
 });
@@ -34,21 +34,21 @@ $("#origin_in").click(function(){
 $("form .origin_input input:first-child").click(function(){
   $(".origin_container").css("display", "block");
 
-  $(".origin_container").load("origin.html");
+  $(".origin_container").load("ajax/origin.html");
 
 
 })
 
 $("#destination_in").click(function(){
     $(".origin_container").css("display", "block");
-  $(".origin_container").load("destination.html");
+  $(".origin_container").load("ajax/destination.html");
 
 });
 
 $("form .origin_input input:nth-child(2)").click(function(){
   $(".origin_container").css("display", "block");
 
-  $(".origin_container").load("destination.html");
+  $(".origin_container").load("ajax/destination.html");
 
 
 })

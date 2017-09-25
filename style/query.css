@@ -252,13 +252,13 @@ footer{
   height: 470px;
 }
 .explore_flex div{
-  width: 60%;
+  width: 70%;
   margin-left: 0px;
   margin: auto;
 
 }
 .explore_flex div img{
-  width: 130px;
+  width: 110px;
 }
 .explore_flex div:first-child img{
   width: 110px;
@@ -270,4 +270,9 @@ footer{
 padding-right: 10px;
 }
 
+}
+@media screen and (max-width: 450px){
+  .explore_flex div img{
+    width: 120px;
+  }
 }

@@ -1,10 +1,22 @@
-$(".hover_btn").mouseover(function() {
-$(event.target).next("#arrow").css("transform", "rotate(225deg)");
+$(document).ready(function(){
+  $(".header_menu").load("menu/plan.html");
+  $(".header_menu").load("menu/info.html");
+})
+
+
+
+$("header nav button:nth-child(1)").click(function() {
+$(event.target).next("#arrow").css("transform" ,"rotate(225deg)");
+$(".header_menu").load("menu/plan.html");
+$(".header_menu").slideDown();
+});
+$("header nav button:nth-child(2)").click(function() {
+$(event.target).next("#arrow").css("transform" ,"rotate(225deg)");
+$(".header_menu").load("menu/info.html");
+$(".header_menu").slideDown();
 });
 
-$(".hover_btn").mouseleave(function() {
-$(event.target).next("#arrow").css("transform", "rotate(45deg)");
-});
+
 
 
 $(".mobile_nav div").click(function(){

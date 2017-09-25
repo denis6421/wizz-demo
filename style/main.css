@@ -30,6 +30,12 @@ header .logo {
 header .logo img {
   width: 100%;
 }
+.header_menu{
+  width: 100%;
+  height:auto;
+  background: white;
+  display: none;
+}
 
 .mobile_nav {
   display: none;
@@ -132,10 +138,11 @@ nav button:first-child {
   margin-bottom: 3px;
 }
 
+
 main {
   width: 100%;
   height: 520px;
-  background-image: url("images/slider/slide1.jpg");
+  background-image: url("../images/origin.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -281,7 +288,9 @@ main form {
 .date_flight input {
   width: 50%;
   height: 55px;
+
 }
+
 
 .hotel .family_rooms input {
   width: calc(100%/3);
