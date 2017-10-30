@@ -258,18 +258,7 @@ main form {
   margin-right: 20px;
 }
 
-.arrow_sep {
-  position: absolute;
-  width: 15px;
-  height: 15px;
-  border: none;
-  background: white;
-  border-left: 1px solid #919191;
-  border-bottom: 1px solid #919191;
-  transform: rotate(-45deg);
-  bottom: 51px;
-  left: 47%;
-}
+
 
 .date_flight {
   position: relative;
@@ -851,7 +840,7 @@ footer {
 
 .mobile_menu_window {
   width: 90%;
-  height: 890px;
+  height:auto;
   margin: auto;
   padding-top: 60px;
   font-family: Source Sans Pro, sans-serif;

@@ -19,7 +19,7 @@ $(".header_menu").slideDown();
 
 
 
-$(".mobile_nav div").click(function(){
+$(".mobile_nav div:first-child").click(function(){
   $(".mobile_menu_wrapper").show();
   $(".mobile_menu").animate({width: 'show'});
   $("body").css("overflow", "hidden");
